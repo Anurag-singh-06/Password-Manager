@@ -33,7 +33,7 @@ const deletepasswords=(website)=>{
     alert(`Successfully Deleted ${website}'s password`)
     showpasswords()
 }
-//logic to add password in the table
+//logic to add password in the table(store)
 const showpasswords = () => {
   let tb = document.querySelector("table");
   let data = localStorage.getItem("passwords");
